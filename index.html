@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kirjastot</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.3/leaflet.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&amp;subset=latin-ext"
+        rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+<!-- Hillan lisäämä alkaa -->
+<div class="header">
+  <nav>
+    <div class="title"><h1>Lähikirjastohaku</h1></div>
+    <ul class="menu">
+      <li><a href="index.html">Etusivu</a></li>
+      <li><a href="tietoja.html">Tietoja</a></li>
+      <li><a href="ENindex.html">In English</a></li>
+    </ul>
+  </nav>
+</div>
+<!-- Hillan lisäämä loppuu -->
+<div class="container">
+  <div id="map"></div>
+  <main>
+    <article>
+      <h3 id="nimi"></h3>
+      <div id="navigoi">
+        <div>
+          <a href="#" target="_blank">Navigoi</a>
+        </div>
+      </div>
+    </article>
+  </main>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.3/leaflet.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
